@@ -1,0 +1,387 @@
+{
+  "countries": [
+    {
+      "id": "1",
+      "value": "Mexico",
+      "from": "LATAM"
+    },
+    {
+      "id": "3",
+      "value": "Colombia",
+      "from": "LATAM"
+    },
+    {
+      "id": "7",
+      "value": "España",
+      "from": "Europa"
+    }
+  ],
+  "flights": [
+    {
+      "id": "1",
+      "Colombia": {
+        "normal": {
+          "size": {
+            "colums": 3,
+            "seats": 4,
+            "sec": 2
+          },
+          "seats": {
+            "disables": [
+              [
+                "1A1",
+                "2A1",
+                "3A1",
+                "6A2",
+                "6B2",
+                "6C2",
+                "5A2",
+                "5B2",
+                "5C2"
+              ]
+            ]
+          }
+        },
+        "large": {
+          "size": {
+            "colums": 3,
+            "seats": 5,
+            "sec": 3
+          },
+          "seats": {
+            "disables": [
+              []
+            ]
+          }
+        }
+      },
+      "Mexico": {
+        "normal": {
+          "size": {
+            "colums": 3,
+            "seats": 4,
+            "sec": 2
+          },
+          "seats": {
+            "disables": [
+              [
+                "5A2",
+                "6A2",
+                "7A2",
+                "5D2",
+                "6D2",
+                "7D2",
+                "5E2",
+                "6E2",
+                "7E2"
+              ]
+            ]
+          }
+        }
+      },
+      "prices": "sameLocation"
+    },
+    {
+      "id": "2",
+      "Colombia": {
+        "normal": {
+          "size": {
+            "colums": 3,
+            "seats": 4,
+            "sec": 2
+          },
+          "seats": {
+            "disables": [
+              []
+            ]
+          }
+        }
+      },
+      "España": {
+        "normal": {
+          "size": {
+            "colums": 3,
+            "seats": 4,
+            "sec": 2
+          },
+          "seats": {
+            "disables": [
+              []
+            ]
+          }
+        }
+      },
+      "prices": "europeTolatam"
+    },
+    {
+      "id": "3",
+      "Mexico": {
+        "normal": {
+          "size": {
+            "colums": 3,
+            "seats": 4,
+            "sec": 2
+          },
+          "seats": {
+            "disables": [
+              []
+            ]
+          }
+        }
+      },
+      "España": {
+        "normal": {
+          "size": {
+            "colums": 3,
+            "seats": 4,
+            "sec": 2
+          },
+          "seats": {
+            "disables": [
+              []
+            ]
+          }
+        }
+      },
+      "prices": "europeTolatam"
+    }
+  ],
+  "ticketPrices": {
+    "europeTolatam": [
+      {
+        "type": "1 Objeto personal",
+        "price": "320.000",
+        "id": "1"
+      },
+      {
+        "type": "Equipaje de mano",
+        "price": "440.000",
+        "id": "2"
+      },
+      {
+        "type": "Equipaje 25 kg",
+        "price": "850.000",
+        "id": "3"
+      }
+    ],
+    "sameLocation": [
+      {
+        "type": "1 Objeto personal",
+        "price": "120.000",
+        "id": "1"
+      },
+      {
+        "type": "Equipaje de mano",
+        "price": "240.000",
+        "id": "2"
+      },
+      {
+        "type": "Equipaje 25 kg",
+        "price": "550.000",
+        "id": "3"
+      }
+    ]
+  },
+  "avalibleHours": {
+    "europeTolatam": [
+      {
+        "salida": "8:00 am",
+        "llegada": "6:45 pm",
+        "id": 1
+      },
+      {
+        "salida": "7:00 pm",
+        "llegada": "5:45 am",
+        "id": 2
+      }
+    ],
+    "sameLocation": [
+      {
+        "salida": "10:50 am",
+        "llegada": "6:20 pm",
+        "id": 1
+      },
+      {
+        "salida": "11:00 pm",
+        "llegada": "4:30 am",
+        "id": 2
+      }
+    ]
+  },
+  "reservas": [
+    {
+      "Origen": "Colombia",
+      "Destino": "Mexico",
+      "Salida": "lunes, 27 de feb de 2023",
+      "Regreso": "martes, 28 de feb de 2023",
+      "passengers": {
+        "Adults": 1,
+        "Childs": 1,
+        "Babes": 1
+      },
+      "seatsSalida": [
+        "1A1",
+        "2A1",
+        "3A1"
+      ],
+      "seatsRegreso": [
+        "5A2",
+        "6A2",
+        "7A2"
+      ],
+      "hours": {
+        "Salida": {
+          "salida": "10:50 am",
+          "llegada": "6:20 pm",
+          "id": 1
+        },
+        "Regreso": {
+          "salida": "10:50 am",
+          "llegada": "6:20 pm",
+          "id": 1
+        }
+      },
+      "price": {
+        "Salida": {
+          "type": "1 Objeto personal",
+          "price": "120.000",
+          "id": "1"
+        },
+        "Regreso": {
+          "type": "Equipaje de mano",
+          "price": "240.000",
+          "id": "2"
+        }
+      },
+      "total": 840,
+      "pasajerosyPago": {
+        "name1": "aaaaaa",
+        "documento1": "1111111",
+        "name2": "aaaaaaaaaa",
+        "documento2": "11111111",
+        "name3": "aaaaaaaaaa",
+        "documento3": "11111111111",
+        "NombrePago": "ssssssssssssss",
+        "NumeroTarjeta": "aaaaaaaaaafff",
+        "correo": "asdf@."
+      },
+      "id": 1
+    },
+    {
+      "passengers": {
+        "Adults": 3,
+        "Childs": 0,
+        "Babes": 0
+      },
+      "Origen": "Colombia",
+      "Destino": "Mexico",
+      "Salida": "viernes, 3 de mar de 2023",
+      "Regreso": "lunes, 6 de mar de 2023",
+      "seatsSalida": [
+        "6A2",
+        "6B2",
+        "6C2"
+      ],
+      "seatsRegreso": [
+        "5D2",
+        "6D2",
+        "7D2"
+      ],
+      "hours": {
+        "Salida": {
+          "salida": "10:50 am",
+          "llegada": "6:20 pm",
+          "id": 1
+        },
+        "Regreso": {
+          "salida": "10:50 am",
+          "llegada": "6:20 pm",
+          "id": 1
+        }
+      },
+      "total": 840,
+      "price": {
+        "Salida": {
+          "type": "1 Objeto personal",
+          "price": "120.000",
+          "id": "1"
+        },
+        "Regreso": {
+          "type": "Equipaje de mano",
+          "price": "240.000",
+          "id": "2"
+        }
+      },
+      "pasajerosyPago": {
+        "name1": "aaaaaa",
+        "documento1": "1111111",
+        "name2": "wwwwwwwwwwwww",
+        "documento2": "eeeeeeeeeeeeeeee",
+        "name3": "qqqqqqqqqqqqq",
+        "documento3": "11111111111",
+        "NombrePago": "aaaaaaaaaaa",
+        "NumeroTarjeta": "aaaaaaaaaafff",
+        "correo": "juandiego@g"
+      },
+      "id": 2
+    },
+    {
+      "passengers": {
+        "Adults": 3,
+        "Childs": 0,
+        "Babes": 0
+      },
+      "Origen": "Colombia",
+      "Destino": "Mexico",
+      "Salida": "viernes, 10 de mar de 2023",
+      "Regreso": "sábado, 18 de mar de 2023",
+      "seatsSalida": [
+        "5A2",
+        "5B2",
+        "5C2"
+      ],
+      "seatsRegreso": [
+        "5E2",
+        "6E2",
+        "7E2"
+      ],
+      "hours": {
+        "Salida": {
+          "salida": "10:50 am",
+          "llegada": "6:20 pm",
+          "id": 1
+        },
+        "Regreso": {
+          "salida": "10:50 am",
+          "llegada": "6:20 pm",
+          "id": 1
+        }
+      },
+      "total": 840,
+      "price": {
+        "Salida": {
+          "type": "1 Objeto personal",
+          "price": "120.000",
+          "id": "1"
+        },
+        "Regreso": {
+          "type": "Equipaje de mano",
+          "price": "240.000",
+          "id": "2"
+        }
+      },
+      "pasajerosyPago": {
+        "name1": "ssssssssss",
+        "documento1": "1111111",
+        "name2": "wwwwwwwwwwwww",
+        "documento2": "11111111",
+        "name3": "aaaaaaaaaa",
+        "documento3": "2222222222222222222",
+        "NombrePago": "ssssssssssssss",
+        "NumeroTarjeta": "aaaaaaaaaaaddddddddd",
+        "correo": "diego@gmail.com"
+      },
+      "id": 3
+    }
+  ]
+}
